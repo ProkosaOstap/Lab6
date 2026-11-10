@@ -124,18 +124,6 @@ npm start
 цілісність при видаленні. При помилках форма повертається з введеними
 значеннями та повідомленнями українською (HTTP 400).
 
-## Скидання даних
-
-Видаліть `data/db.json` і перезапустіть сервер — база відновиться з
-початковими даними (включно з трьома тестовими користувачами).
-
-
-## Розгортання на Railway
-
-1. Завантажте папку проєкту в репозиторій GitHub (без `node_modules`).
-2. На [railway.app](https://railway.app): **New Project -> Deploy from GitHub repo**.
-3. У **Settings -> Networking -> Generate Domain** створіть публічну адресу.
-
 Railway сам виконує `npm install` і `npm start`; порт читається зі змінної `PORT`.
 Тестові акаунти (admin/admin123, manager/manager123, visitor/visitor123) вже є у файловій базі.
 
